@@ -63,6 +63,7 @@ const App = () => {
               onChange={() => UpdateTodo(todo)}/>
               {todo.text}
             </label>
+            <br />
             <button type="button" className="contrast" onClick={() => deleteTodo(todo)}>Remove</button>
           </article>
         ))}
